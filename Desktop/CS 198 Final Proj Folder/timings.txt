@@ -1,0 +1,186 @@
+Fortran - -O0
+Time =      0.000 seconds.
+N =10
+
+Time =      0.000 seconds.
+N =100
+
+Time =      0.031 seconds.
+N =1000
+
+Time =      0.656 seconds.
+N =10000
+
+Time =     11.438 seconds.
+N =100000
+
+Time =    162.953 seconds.
+N =1000000
+
+Fortran - -0fast
+N =10
+Time =      0.000 seconds.
+
+N =100
+Time =      0.000 seconds.
+
+N =1000
+Time =      0.031 seconds.
+
+N =10000
+Time =      0.688 seconds.
+
+N =100000
+Time =     12.062 seconds.
+
+N =1000000
+Time =    168.453 seconds.
+
+Fortran - -03
+N =10
+Time =      0.000 seconds.
+
+N =100
+Time =      0.000 seconds.
+
+N =1000
+Time =      0.031 seconds.
+
+N =10000
+Time =      0.688 seconds.
+
+N =100000
+Time =     11.594 seconds.
+
+N =1000000
+Time =    163.406 seconds.
+
+FortranOptimized - -O0 
+N =10
+Time =      0.000 seconds.
+
+N =100
+Time =      0.000 seconds.
+
+N =1000
+Time =      0.016 seconds.
+
+N =10000
+Time =      0.312 seconds.
+
+N =100000
+Time =      5.547 seconds.
+
+N =1000000
+Time =     87.062 seconds.
+
+FortranOptimized - -O1
+N =10
+Time =      0.000 seconds.
+
+N =100
+Time =      0.000 seconds.
+
+N =1000
+Time =      0.016 seconds.
+
+N =10000
+Time =      0.312 seconds.
+
+N =100000
+Time =      5.516 seconds.
+
+N =1000000
+Time =     85.047 seconds.
+
+FortranOptimized - -o2
+N =10
+Time =      0.000 seconds.
+
+N =100
+Time =      0.000 seconds.
+
+N =1000
+Time =      0.016 seconds.
+
+N =10000
+Time =      0.328 seconds.
+
+N =100000
+Time =      5.109 seconds.
+
+N =1000000
+Time =     82.328 seconds.
+
+FortranOptimized - -o3
+N =10
+Time =      0.000 seconds.
+
+N =100
+Time =      0.000 seconds.
+
+N =1000
+Time =      0.016 seconds.
+
+N =10000
+Time =      0.297 seconds.
+
+N =100000
+Time =      5.156 seconds.
+
+N =1000000
+Time =     82.859 seconds.
+
+FortranOptimized - -ofast
+N =10
+Time =      0.000 seconds.
+
+N =100
+Time =      0.000 seconds.
+
+N =1000
+Time =      0.016 seconds.
+
+N =10000
+Time =      0.281 seconds.
+
+N =100000
+Time =      5.188 seconds.
+
+N =1000000
+Time =     82.422 seconds.
+
+FortranOptimized - -o3 -ffast-math
+N =10
+Time =      0.000 seconds.
+
+N =100
+Time =      0.016 seconds.
+
+N =1000
+Time =      0.016 seconds.
+
+N =10000
+Time =      0.281 seconds.
+
+N =100000
+Time =      5.109 seconds.
+
+N =1000000
+Time =     84.594 seconds.
+
+Python
+N= 10 :  0.0
+N= 100 :  0.006001710891723633
+N= 1000 :  0.10749316215515137
+N= 10000 :  1.8224127292633057
+N= 100000 :  27.20891809463501
+N= 1000000 :  390.9817326068878
+
+PythonOptimized
+N= 10 :  0.0
+N= 100 :  0.004001617431640625
+N= 1000 :  0.06801509857177734
+N= 10000 :  1.1532618999481201
+N= 100000 :  16.786802530288696
+N= 1000000 :  231.32440853118896
